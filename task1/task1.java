@@ -6,7 +6,7 @@ public class task1 {
 
     public static void main(String[] args) {
         try {
-            File file = new File(args[0] + "\\file1.txt");
+            File file = new File(args[0]);
             FileReader fr = new FileReader(file);
             BufferedReader reader = new BufferedReader(fr);
             ArrayList<Integer> array = new ArrayList<>();
